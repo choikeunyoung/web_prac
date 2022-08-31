@@ -4,16 +4,27 @@
 
 .cards {
     width: 300px;
-    display: inline-block;
+    display: flex;
     border: 1px black;
+    flex-direction: column;
 }
-
+.total_images {
+    display: flex;
+    position: relative;
+}
 .img_cards {
     width: 100%;
-    display: inline-block;
     border-radius: 1rem;
 }
+.sale {
+    border-radius: 1em;
+    background-color:blanchedalmond;
+    position: absolute;
+    left: 0;
+    right: 100px;
+    bottom: 0;
 
+}
 .main_text {
     font-size: 0.9em;
     padding: 0px 3px 0px 3px;
