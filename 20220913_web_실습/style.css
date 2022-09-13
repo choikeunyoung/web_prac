@@ -15,6 +15,15 @@
     margin-right: 1rem;
   }
 
+  .list-group {
+    width: 70%;
+    margin-right: 3px;
+  }
+
+  .tt {
+    width: 90%;
+  }
+
   .title {
     text-align: center;
     margin: 3rem;
@@ -47,6 +56,8 @@
   }
 }
 
+/* 이 부분이 크기 줄였을때 카드로 바뀌는 부분입니다 */
+
 @media(max-width:992px) {
 
     .aside {
@@ -59,6 +70,10 @@
     .title {
       text-align: center;
       margin: 3rem;
+    }
+
+    .list-group {
+      width: 80%;
     }
 
     .movie_title {
@@ -84,7 +99,7 @@
 
     .card {
       margin-top: 1rem;
-      width: 82%;
+      width: 80%;
     }
 
 }
