@@ -13,6 +13,7 @@
     display: flex;
     justify-content: end;
     margin-right: 1rem;
+    margin-top: 2.3rem;
   }
 
   .list-group {
@@ -54,6 +55,11 @@
   .cards {
     display: none;
   }
+
+  .write {
+    display: flex;
+    justify-content: end;
+  }
 }
 
 /* 이 부분이 크기 줄였을때 카드로 바뀌는 부분입니다 */
@@ -61,7 +67,6 @@
 @media(max-width:992px) {
 
     .aside {
-      grid-column: 12;
       width: 100%; 
       display: flex;
       justify-content: center;
@@ -86,15 +91,15 @@
       margin-bottom: 1rem;
     }
 
-    .table {
+    .tt {
       display: none;
     }
 
     .cards {
-      grid-column: 12;
       display: flex;
       flex-direction: column;
       align-items: center;
+      width: 100%;
     }
 
     .card {
@@ -102,4 +107,11 @@
       width: 80%;
     }
 
+    .write {
+      display: flex;
+      height: 80%
+      justify-content: center;
+      margin-top: 1rem;
+      
+    }
 }
