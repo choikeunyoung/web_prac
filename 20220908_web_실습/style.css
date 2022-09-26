@@ -1,0 +1,8 @@
+@media (max-width: 720px) {
+    .collapse {
+      flex-direction: column;
+    }
+    .btn {
+        justify-content: start;
+    }
+  }
